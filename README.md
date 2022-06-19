@@ -11,7 +11,7 @@
 This is the Sensirion SFM-SF06 library for Arduino using the
 modules I2C interface. This driver allows to control all sensors of the SFM-SF06 sensor family.
 The provided examples use the sensor *SFM3119*
-[<div><p align="center"><img src="images/sfm3119.png" width="300px"></p></div>](./images/sfm3119.png).
+[<div><p align="center"><img src="images/sfm3119.png" width="300px"></p></div>](./images/sfm3119.png)
 
 The connector layout of this senor is shown in the figure below:
 <div><p align="center"><img src="images/sfm3119_pinout.png" width="450px"></p></div>
