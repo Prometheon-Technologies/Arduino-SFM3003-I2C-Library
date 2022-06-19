@@ -12,26 +12,17 @@
         "type": "git",
         "url": "https://github.com/Prometheon-Technologies/Arduino-SFM3003-I2C-Library"
     },
-    "export": {
-        "include": [
-            "src/*.h",
-            "src/*.cpp"
-        ]
-    },
+    "exclude": "tests",
     "dependencies": {
         "Sensirion Core": "^0.5.3",
         "Wire": "^2.4.0"
     },
     "version": "0.0.1",
+    "examples": "examples/*/*.ino",
     "frameworks": "arduino",
     "platforms": [
-        "avr",
-        "arm",
-        "arm-linux-gnueabihf",
+        "atmelavr",
         "espressif8266",
-        "espressif32",
-        "linuxduino",
-        "macos",
-        "mbed"
+        "espressif32"
     ]
 }
