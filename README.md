@@ -11,20 +11,20 @@
 This is the Sensirion SFM-SF06 library for Arduino using the
 modules I2C interface. This driver allows to control all sensors of the SFM-SF06 sensor family.
 The provided examples use the sensor *SFM3119*
-[<center><img src="images/sfm3119.png" width="300px"></center>](./images/sfm3119.png).
+[<div><p align="center"><img src="images/sfm3119.png" width="300px"></p></div>](./images/sfm3119.png).
 
 The connector layout of this senor is shown in the figure below:
-<center><img src="images/sfm3119_pinout.png" width="450px"></center>
+<div><p align="center"><img src="images/sfm3119_pinout.png" width="450px"></p></div>
 
 Other supported products of the sfm-sf06 sensor family are:
 
-* SFM3003
-* SFM4300
-* SFM3119
-* SFM3013
-* SFM3019
+- SFM3003
+- SFM4300
+- SFM3119
+- SFM3013
+- SFM3019
 
-To learn more about the sensors of the familiy sfm-sf06 [see](https://www.sensirion.com/flow-sensors)
+To learn more about the sensors of the familiy sfm-sf06 [see here](https://www.sensirion.com/flow-sensors)
 
 ## Installation
 
@@ -33,12 +33,12 @@ To learn more about the sensors of the familiy sfm-sf06 [see](https://www.sensir
 To install, download the latest release as .zip file and add it to your
 [Arduino IDE](http://www.arduino.cc/en/main/software) via
 
- Sketch => Include Library => Add .ZIP Library...
+`Sketch => Include Library => Add .ZIP Library...`
 
 Don't forget to **install the dependencies** listed below the same way via `Add
 .ZIP Library`
 
-Note: Installation via the Arduino Library Manager is coming soon.
+> **Note**: Installation via the Arduino Library Manager is coming soon.
 
 ### PlatofrmIO IDE
 
