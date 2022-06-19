@@ -35,8 +35,8 @@
  */
 
 #include <Arduino.h>
-#include <SensirionI2CSfmSf06.h>
 #include <Wire.h>
+#include <SensirionI2CSfmSf06.h>
 
 SensirionI2CSfmSf06 sfmSf06;
 
