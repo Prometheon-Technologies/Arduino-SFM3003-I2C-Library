@@ -1,0 +1,37 @@
+{
+    "name": "Arduino-SFM3003-I2C-Library",
+    "keywords": "sfm, sfm3003, Sensirion, mass, flow, I2C, i2c, library, arduino",
+    "description": "The complete Sensirion SFM3003 library",
+    "authors": [
+        {
+            "name": "Prometheon Technologies",
+            "url": "https://prometheontechnologies.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Prometheon-Technologies/Arduino-SFM3003-I2C-Library"
+    },
+    "export": {
+        "include": [
+            "src/*.h",
+            "src/*.cpp"
+        ]
+    },
+    "dependencies": {
+        "Sensirion Core": "^0.5.3",
+        "Wire": "^2.4.0"
+    },
+    "version": "0.0.1",
+    "frameworks": "arduino",
+    "platforms": [
+        "avr",
+        "arm",
+        "arm-linux-gnueabihf",
+        "espressif8266",
+        "espressif32",
+        "linuxduino",
+        "macos",
+        "mbed"
+    ]
+}
